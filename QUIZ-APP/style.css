@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #b8c6db;
+  display: flex;
+  background-image: url(https://us.123rf.com/450wm/sgtsagan/sgtsagan1905/sgtsagan190500361/122251079-texture-abstractions-idea-funny-easy-and-sharply-simple-nice-background-mesh-graphic-graphic-light-b.jpg?ver=6);
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+.quiz-container {
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  box-shadow: 0, 0, 10px, 2px, rgba(0, 0, 0, 0.2);
+  width: 500px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.quiz-header {
+  padding: 2rem;
+}
+h2 {
+  margin: 0;
+}
+ul li {
+  cursor: pointer;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+ul li label {
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  background-color: cadetblue;
+  color: white;
+  padding: 1.2rem;
+  width: 100%;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(17, 168, 173);
+}
