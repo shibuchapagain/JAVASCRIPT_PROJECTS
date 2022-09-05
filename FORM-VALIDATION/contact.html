@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---------------------- CONTACT -->
+    <div class="container justify-content-between">
+      <h4 class="text-primary text-center text-uppercase mt-3">
+        CONTACT INFORMATION
+        <hr />
+      </h4>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="text-uppercase mt-2 text-white bg-info ps-2 pt-2 pb-2">
+            Online Form
+          </h4>
+          <p>
+            You can contact us via email at
+            <a href="#">info@nepalvolunteers.org</a>
+          </p>
+          <!-- registration form  -->
+          <form action="#" method="POST">
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form">
+                  <label class="form-label" for="form6Example1"
+                    >Full Name *
+                  </label>
+                  <input type="text" id="fullName" class="form-control" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form">
+                  <label class="form-label" for="form6Example2">Email *</label>
+                  <input type="text" id="email" class="form-control" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Text input -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form">
+                  <label class="form-label" for="form6Example3"
+                    >Address *</label
+                  >
+                  <input type="text" id="address" class="form-control" />
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="form">
+                  <label class="form-label" for="form6Example4"
+                    >Phone Number *</label
+                  >
+                  <input type="number" id="contact" class="form-control" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Email input -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="form">
+                  <label class="form-label" for="form6Example5">Country*</label>
+                  <input type="text" id="country" class="form-control" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form mt-2">
+                  <label class="form-label" for="form6Example6">Gender* </label
+                  ><br />
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="genderInput"
+                      type="radio"
+                      name="gender"
+                      id="male"
+                      value="option1"
+                      required
+                    />
+                    <label class="form-check-label" for="inlineRadio1"
+                      >Male</label
+                    >
+                  </div>
+
+                  <div class="form-check form-check-inline ps-4">
+                    <input
+                      class="genderInput"
+                      type="radio"
+                      name="gender"
+                      id="female"
+                      value="option2"
+                      required
+                    />
+                    <label class="form-check-label" for="inlineRadio2"
+                      >Female</label
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Message input -->
+            <div class="form mb-4">
+              <label class="form-label" for="form6Example7"
+                >Please write your concerns of query(if any) *</label
+              >
+              <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <button
+              type="submit"
+              name="submit"
+              id="submit"
+              class="btn btn-outline-primary mb-4 text-dark"
+            >
+              Submit
+            </button>
+          </form>
+          <!-- end registration form -->
+        </div>
+        <div class="col-md-6">
+          <h4 class="pt-2 ps-2 pb-2 mt-2 bg-danger text-white">
+            Head Office Contact
+          </h4>
+          <h5 class="ps-2">
+            Nepal Volunteers<br />
+            <h6 class="ps-2">
+              <i class="fas fa-envelope"></i
+              ><a href="#" class="ps-2">info@nepalvolunteers.org</a><br />
+              <i class="fas fa-search-location"></i
+              ><small class="text-black">
+                Sanepa- 02, Lalitpur Kathmandu Nepal<br />
+                Phone - 9862247321 <br />
+              </small>
+            </h6>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------- CONTACT END -->
+
+    <!-- MDB -->
+    <script src="./contactScript.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+    ></script>
+  </body>
+</html>

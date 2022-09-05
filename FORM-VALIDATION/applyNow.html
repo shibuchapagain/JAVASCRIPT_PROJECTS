@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---------------------- CONTACT -->
+    <div class="container justify-content-between mt-2">
+        <div class="row">
+            <div class="col-md-8">
+                <h4 class="text-uppercase mt-2 text-white bg-info ps-2 pt-2 pb-2" >Apply Now - Online Booking Form</h4>
+                <p>
+                  <B>EcoHomeStay, SAF, Agripreneurs' "Nepal Volunteers"</B> is pleased that you have decided to join us to experience the life of a volunteer in the most beautiful Himalayan country in the world. We are committed to working with you to make your time a life time experience in Nepal. Please send us:
+                    <ul>
+                        <li>A brief resume </li>
+                        <li>Covering letter mentioning the program of choice</li>
+                        <li>Duration of stay and arrival date ( if possible flight details)</li>
+                    </ul>
+                    <b>To</b>
+                    <a href="">iabsnepal@gmail.com</a>
+                    <br>
+                    <br>
+                    Apply now using our online application form below:
+                </p>
+                <!-- registration form  -->
+                <form>
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                    <div class="row mb-4">
+                      <div class="col">
+                        <div class="form">
+                            <label class="form-label" for="form6Example1" >Full Name * </label>
+                          <input type="text" id="fullName" class="form-control"/>
+                          
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form">
+                          <label class="form-label" for="form6Example2">Email *</label>
+                          <input type="text" id="email" class="form-control" />
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!-- Text input -->
+                    <div class="row  mb-4">
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example3">Address *</label>
+                                <input type="text" id="address" class="form-control "  />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example4">Phone Number *</label>
+                                <input type="number" id="contact" class="form-control"  />
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row  mb-4">
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example5">Select your Preferred Social Meida *</label>
+                                <select id="socialMedia" class="form-control">
+                                    <option selected value="">Select Social Media</option>
+                                    <option value="1">Viber </option>
+                                    <option vaud="2">Whats App</option>
+                                    <option value="3">Wechat</option>
+                                    <option value="4">Messenger</option>
+                                    <option value="5">Google Meet</option>
+                                    <option value="6">Skype</option>
+                                    
+                                </select>
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example6"> Date of Birth *</label>
+                                <input type="date" id="dateOfBirth" class="form-control"  />
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row  mb-4">
+                      <div class="col">
+                          <div class="form">
+                              <label class="form-label" for="form6Example13">Social Media Account *</label>
+                              <input type="text" id="socialMediaProfile" class="form-control "  />
+                          </div>
+                      </div>
+                      <div class="col">
+                          <div class="form">
+                              <label class="form-label" for="form6Example14">How did you find us? *</label>
+                              <input type="text" id="findUsDescription" class="form-control"  />
+                          </div>
+                      </div>
+                  </div>
+    
+                    
+                    
+                  
+                  
+                    <!-- county input -->
+                    <div class="row  mb-4">
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example7">Country*</label>
+                                <input type="text" id="country" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form ">
+                                <label class="form-label" for="form6Example8">Gender *</label>
+                                <select id="selectGender" class="form-control">
+                                    <option selected value="">Select Gender</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row  mb-4">
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example9">Program Category *</label>
+                                <select id="programCategory" class="form-control">
+                                    <option selected value="">Select Category Program</option>
+                                    <option value="1">Volunteering </option>
+                                    <option value="2">Volunteer And Trek</option>
+                                    <option value="3">Volunteer And Tour </option>
+                                    <option value="4">Charity Trek And Tour</option>
+                                    <option value="5">Internship</option>
+                                    <option value="6">Internship Trekking and Tour </option>
+                                    <option value="7">Practicum/Research/Thesis</option>
+                                    <option value="8">OJT/Field study/ Mentorship</option>
+                                    <option value="9">Scholarship/ Fellowship</option>
+                                    <option value="10">Sponsorship</option>
+                                    <option value="11">Exposure visit/Excursion </option>
+                                    <option value="12">Field Visit/Academic Tour</option>
+                                    <option value="13">Training/Workshop/Seminar</option>
+                                    <option value="14">Survey/Research(R&D)/Campaign</option>
+                                    <option value="15">Event/Concert/Scouting</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example10"> Program Name *</label>
+                                <input type="text" id="programName" class="form-control"  />
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row  mb-4">
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example11">Date you want to start? *</label>
+                                <input type="date" id="dateYouWantStart" class="form-control "  />
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form">
+                                <label class="form-label" for="form6Example12">Duration that you want to take part: *</label>
+                                <input type="number" id="durationYouWant" class="form-control"  />
+                            </div>
+                        </div>
+                    </div>
+    
+                    
+    
+                    
+                  
+                    <!-- Message input -->
+                    <div class="row justify-content-between">
+                        <div class="col-md-6">
+                            <div class="form mb-4">
+                                <label class="form-label" for="form6Example15">Covering Letter/Letter Of Interest </label>
+                                <textarea class="form-control" id="coveringLetter" rows="4" ></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form mb-4">
+                                <label class="form-label" for="form6Example16">Your Expections/Objectives of this Program</label>
+                              <textarea class="form-control" id="yourExpections" rows="4" ></textarea>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-between">
+                      <div class="col-md-6">
+                          <div class="form mb-4">
+                              <label class="form-label" for="form6Example15">CV & Resume *</label>
+                              <input type="file" id="cvResume" class="form-control">
+                          </div>
+                      </div>
+                  </div>
+                    
+                  
+                  
+                    <!-- Submit button -->
+                    <button type="submit" id="submit" class="btn btn-outline-primary mb-4 text-dark">Submit</button>
+                  </form>
+                <!-- end registration form -->
+            </div>
+            <div class="col-md-4">
+                <h4 class="pt-2 ps-2 pb-2 mt-2 bg-danger text-white">Head Office Contact</h4>
+                <h5 class="ps-2">
+                    Nepal Volunteers<br>
+                    <h6 class="ps-2"> <i class="fas fa-envelope"></i><a href="#" class="ps-2">info@nepalvolunteers.org</a><br>
+                    <i class="fas fa-search-location"></i><small class="text-black"> Sanepa- 02, Lalitpur Kathmandu Nepal<br>
+                    Phone - 9862247321 <br>
+                    </small>
+                        
+                    </h6>
+                </h5>
+            </div>
+        </div>
+    </div>
+    <!-------------------- CONTACT END -->
+
+    <!-- MDB -->
+    <!-- <script src="./contactScript.js"></script> -->
+    <script src="./applyNowScript.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+    ></script>
+  </body>
+</html>
